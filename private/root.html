@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Визитка</title>
+    <style>
+        body, textarea, button, input, a.button {
+            color:black;
+            background-color:gray;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body, textarea, button, input, a.button {
+                color:white;
+                background-color:black;
+            }
+        }
+
+        textarea {
+            width: 90%;
+        }
+
+        a.button {
+            appearance: button;
+        }
+
+        body {
+            max-width: 700px;
+            margin: 1em auto;
+        }
+
+        img {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+{{datahere}}
+</body>
+</html>
